@@ -1,0 +1,6 @@
+def two_eggs(floors):
+    k = 0
+    while k * (k + 1) // 2 < floors:
+        k += 1
+    return k
+print(two_eggs(100))
